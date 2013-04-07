@@ -33,7 +33,7 @@ public abstract class AbstractWARLoader implements WebappLoader {
 
         try {
             unzip(warFile, explodedWarDir);
-        } catch(IOException e) {
+        } catch (IOException e) {
             throw new RuntimeException(e);
         }
 
@@ -56,7 +56,7 @@ public abstract class AbstractWARLoader implements WebappLoader {
                 }
             }))
                 webappClassLoader.addJar(WEB_INF_LIB + "/" + file.getName(), new JarFile(file), file);
-        } catch(Exception e) {
+        } catch (Exception e) {
             throw new RuntimeException(e);
         }
 

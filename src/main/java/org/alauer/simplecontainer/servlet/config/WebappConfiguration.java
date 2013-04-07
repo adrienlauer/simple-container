@@ -20,13 +20,7 @@ import javax.servlet.Filter;
 import javax.servlet.ServletContextListener;
 import javax.servlet.http.HttpServlet;
 import java.io.File;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class WebappConfiguration {
 

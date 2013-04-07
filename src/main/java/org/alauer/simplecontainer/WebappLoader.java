@@ -3,6 +3,7 @@ package org.alauer.simplecontainer;
 import org.alauer.simplecontainer.servlet.config.WebappConfiguration;
 
 public interface WebappLoader {
+
     void init();
 
     void start();
@@ -10,4 +11,5 @@ public interface WebappLoader {
     ClassLoader getClassLoader();
 
     WebappConfiguration getWebappConfiguration();
+
 }
